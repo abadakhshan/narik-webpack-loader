@@ -33,7 +33,7 @@ module.exports = function(source, sourcemap) {
     // Not cacheable during unit tests;
   this.cacheable && this.cacheable();
 
-  var newSource = source.replace(templateUrlRegex, function (match, url) {
+  var newSource = source.replace(baseTemplateUrlRegex, function (match, url) {
                  // replace: templateUrl: './path/to/template.html'
                  // with: template: require('./path/to/template.html')
                  // or: templateUrl: require('./path/to/template.html')

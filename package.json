@@ -1,6 +1,6 @@
 {
   "name": "narik-webpack-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Narik webpack loader that inlines your angular templates and stylesheets into angular components.  ",
   "main": "index.js",
   "scripts": {
